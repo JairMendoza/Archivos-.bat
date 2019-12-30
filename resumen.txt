@@ -1,0 +1,17 @@
+for %%n in (lunes, martes, miercoles, jueves, viernes, sabado, domingo) do 
+echo %%n
+despues del do solo podemos poner una orden aunque podemos usar parentesis 
+como haciamos en el if
+for %%n in (juana, paco, jose, eduardo, juan, ango) do(
+if %%n equ "juana"(
+echo juana es mi unica profesora
+)else (echo uno de mis profesores es %%n)
+)
+
+
+Tambien podemos usar el for para trabajar con ficheros:
+For %%F in (C:\WINDOWS\*.TXT)do(
+echo procesando el fichero %%F
+Copy %%F C:\COPIA_SEGURIDAD
+echo ya he copiado el fichero %%F
+)

@@ -1,0 +1,6 @@
+@echo off
+title MATRIX
+color 04
+:inicio
+echo penepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepenepene
+goto inicio
